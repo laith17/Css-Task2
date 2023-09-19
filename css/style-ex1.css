@@ -1,0 +1,21 @@
+.boxes {
+    margin-top: 40px;
+}
+
+.boxes .box {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.boxes .box:nth-child(odd) {
+    background-color: yellow;
+}
+
+.boxes .box:nth-child(even) {
+    background-color: green;
+    position: relative;
+    top: 30px;
+}
